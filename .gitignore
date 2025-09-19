@@ -1,0 +1,52 @@
+# ---- Python build/cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.build/
+dist/
+
+# ---- Virtual envs / tooling
+.venv/
+venv/
+.env
+.env.*
+pip-wheel-metadata/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- OS/Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Project data (private / large / re-generated)
+data/raw/            # NDJSON keystroke/mouse logs (sensitive)
+data/features/       # derived feature tables
+data/datasets/       # train.csv (contains labels)
+data/predictions/    # model outputs
+data/profiling/
+
+# keep the empty folders tracked
+data/**/.gitkeep
+
+# ---- Models & artifacts (reproducible but large)
+models/              # model.joblib, metrics.json, features_used.json
+
+src/README.md
+# ---- Logs & temp
+logs/
+*.log
+*.tmp
+tmp/
+
+# ---- Config secrets (if you ever add any)
+config/*.local.yaml
+*.secret.yaml
+
+# ---- Optional: Large binaries (if used)
+*.parquet
+*.ndjson
+*.csv

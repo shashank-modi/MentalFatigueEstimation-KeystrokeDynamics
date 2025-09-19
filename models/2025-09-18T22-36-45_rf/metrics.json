@@ -1,0 +1,5 @@
+{
+  "rows": 64,
+  "mae": 0.07897435897435906,
+  "note": "Tiny data \u2192 MAE may be optimistic"
+}

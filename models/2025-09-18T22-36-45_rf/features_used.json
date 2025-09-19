@@ -1,0 +1,16 @@
+[
+  "keys_total",
+  "backspace",
+  "correction_rate",
+  "avg_iki",
+  "iki_std",
+  "move_events",
+  "mouse_speed_mean",
+  "mouse_speed_std",
+  "mouse_jerk_mean",
+  "idle_ratio",
+  "clicks",
+  "scrolls",
+  "tod_sin",
+  "tod_cos"
+]
