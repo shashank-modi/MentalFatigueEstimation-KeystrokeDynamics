@@ -75,7 +75,7 @@ python -m src.model.predict
 
 ---
 
- Example Output
+## Example Output
 ```
 [train] Saved model to models/2025-09-15T12-45-32_rf
 [train] Test MAE: 0.36
@@ -84,14 +84,14 @@ python -m src.model.predict
 
 ---
 
- Privacy
+## Privacy
  ```
 	•	No actual keystrokes or text are stored.
 	•	Only timing and dynamics (IKI, corrections, idle time, mouse movement) are logged.
 ```
 ---
 
- Tech Stack
+## Tech Stack
  ```
 	•	Python (pandas, numpy, scikit-learn, LightGBM)
 	•	pynput (event capture)
@@ -100,7 +100,7 @@ python -m src.model.predict
 ```
 ---
 
- Future Work
+## Future Work
  ```
 	•	Support real-time fatigue prediction.
 	•	Explore deep learning models (LSTMs, Transformers).
