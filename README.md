@@ -5,7 +5,7 @@ This project captures raw interaction data, computes behavioral features, collec
 
 ---
 
-## ✨ Features
+##  Features
 - **Event Logger**: Captures keystrokes & mouse events (contentless, privacy-preserving).  
 - **Windowing**: Slices events into fixed 1-minute windows.  
 - **Feature Engineering**: Extracts typing dynamics (IKI, backspace rate), mouse dynamics (speed, jerk), idle ratios, and time-of-day.  
@@ -16,7 +16,7 @@ This project captures raw interaction data, computes behavioral features, collec
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 MentalFatigueEstimation/
 ├── src/
@@ -34,7 +34,7 @@ MentalFatigueEstimation/
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### 1. Clone the repo
 ```bash
