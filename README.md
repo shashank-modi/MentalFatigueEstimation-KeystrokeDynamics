@@ -73,7 +73,7 @@ python -m src.model.train
 python -m src.model.predict
 ```
 
-⸻
+---
 
  Example Output
 ```
@@ -82,14 +82,14 @@ python -m src.model.predict
 [train] Features used (15): ['keys_total','backspace','avg_iki',...]
 ```
 
-⸻
+---
 
  Privacy
  ```
 	•	No actual keystrokes or text are stored.
 	•	Only timing and dynamics (IKI, corrections, idle time, mouse movement) are logged.
 ```
-⸻
+---
 
  Tech Stack
  ```
@@ -98,7 +98,7 @@ python -m src.model.predict
 	•	Tkinter (label collection GUI)
 	•	Joblib (model persistence)
 ```
-⸻
+---
 
  Future Work
  ```
