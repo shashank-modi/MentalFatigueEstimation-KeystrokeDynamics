@@ -17,7 +17,7 @@ This project captures raw interaction data, computes behavioral features, collec
 ---
 
 ##  Project Structure
-
+```
 MentalFatigueEstimation/
 ├── src/
 │   ├── collector/       # event capture
@@ -31,7 +31,7 @@ MentalFatigueEstimation/
 ├── models/              # (ignored in git) saved ML models
 ├── requirements.txt     # dependencies
 └── README.md            # project docs
-
+```
 ---
 
 ##  Quick Start
